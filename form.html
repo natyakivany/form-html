@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta name="author" content="Natya Kivany">
+	<title>Form HTML</title>
+	</head>
+	<body>
+		<form method="" action="">
+		<fieldset>
+			<legend>Data Pribadi</legend>
+		<table>
+			<tr>
+			<th><label for="Nama">Nama</label>
+			<td><input	size="40" type="text" name="nama" id="nama" autofocus placeholder="Nama Lengkap" required></td>
+			</tr>
+			
+			<tr>
+			<th><label for="NIM">NIM</label></th>
+			<td><input type="number" name="nim" id="nim" value="123456" readonly></td>
+			</tr>
+			
+			<tr>
+			<th><label for="email">Email</label></th>
+			<td><input type="email" name="email" id="email"></td>
+			<tr>
+			
+			<tr>
+			<th><label for="Jenis Kelamin">Jenis Kelamin</label></th>
+			<td><input type="radio" name="jk" value="laki-laki" id="jk">laki-laki
+			<input type="radio" name="jk" value="perempuan"required>perempuan
+			</td>
+			</tr>	
+			
+			<tr>
+			<th><label for="">Tanggal Lahir</label></th>
+			<td><input type="date" name="tgl_lahir" id="tanggal lahir">
+			<input type="datetime-local" name="tgl_lahir" id="tanggal lahir">
+			</td>
+			</tr>
+			
+			<tr>
+			<th><label for="">Hobby</label></th>
+			<td><input type="checkbox" name="hobby" value="Membaca" id="hobby">Membaca
+			<input type="checkbox" name="hobby" value="Berenang" id="hobby">Berenang
+			<input type="checkbox" name="hobby" value="Menyanyi" id="hobby">Menyanyi
+			</td>
+			</tr>
+			
+			<tr>
+			<th><label for="">Password</label></th>
+			<td><input type="password" name="password"></td>
+			</tr>
+			
+			<tr>
+			<th><label for="">Foto</label></th>
+			<td><input type ="file" name="foto" accept="image/*">
+			</tr>
+			
+			<tr>
+			<th><label for="">Warna Kesukaan</label></th>
+			<td><input type="color" name="warna"></td>
+			</tr>
+			
+			<tr>
+			<th><label for="Alamat">Alamat</label></th>
+			<td><textarea name="alamat" id="alamat" cols="30" rows="5"></textarea></td>
+			</tr>
+			
+			<tr>
+				<th><label for="Kota">kota</label></th>
+				<td>
+				<select name="kota" id="kota">
+					<option value="Padang">Padang</option>
+					<option value="Payukumbuh">Payukumbuh</option>
+					<option value="Pariaman">Pariaman</option>
+					<option value="LubukLinggau">Lubuklinggau</option>
+					<option value="Solok">Solok></option>
+					<option value="Solokselatan">Solokselatan</option>
+					<option value="Pesisirselatan">Pesisirselatan</option>
+				</select>
+			<tr>
+			<td colspan="2"> &nbsp;</td>
+			</tr>
+			
+			<tr>
+			<td colspan="2" align="center"><input type="submit">
+		</table>
+		</form>
+	</body>
+</html>
